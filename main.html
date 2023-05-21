@@ -8,6 +8,23 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <h1>Feedback Form</h1>
+	<form>
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" min="3" maxlength="50" required><br>
+		 <label for="portfolio">Portfolio</label><br>
+		<input type="url" id="portfolio" required><br>
+		<label for="favColor">Favorite Color</label><br> 
+		<select>
+			<option value="" selected>--Select Colour--</option>
+			<option value="green">Green</option>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+		</select><br>
+		<label for="likeness">Default range slider:</label>
+       <input type="range" id="likeness" min="1" max="100" value="50">
+    
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
